@@ -1,0 +1,17 @@
+
+body{
+    background-image: url("https://media.giphy.com/media/13gvXfEVlxQjDO/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+h1{
+    color:rgba(223,33,100,1)
+}
+
+h2{
+    color:rgb(19, 99, 190)
+}
+#green{
+    color:Blue;
+}

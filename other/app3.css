@@ -1,0 +1,18 @@
+h1 + ul {
+    color:red;
+    }
+    
+ul + p{
+border:2px solid maroon;
+}
+
+ul li a{
+    color:blue
+}
+
+.border1{
+    border-color:plum;
+    border-width: 5px;
+    border-style:solid;
+}
+

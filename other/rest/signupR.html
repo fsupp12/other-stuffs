@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link rel="stylesheet" type="text/css" href="resst.css" />
+    <link rel="stylesheet" type="text/css" href="resturant.css" />
+    <title>sign up</title>
+  </head>
+  <body>
+    <div>
+      <label for="Name">Name:</label>
+      <input id="name" type="text" placeholder="First name" />
+      <input id="name" type="text" placeholder="Last Name" />
+    </div>
+    <label for="Email">Email:</label>
+    <input id="Email" type="text" placeholder="myname@example.com" />
+    <div></div>
+    <div>
+      <label for="phone">phone number: </label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        required
+      />
+    </div>
+
+    <small>Format: 123-456-789</small>
+    <div>
+      <label for="Address">Address:</label>
+      <input id="Address" type="text" placeholder="street Address" />
+      <input id="Address" type="text" placeholder="street Address 2" />
+    </div>
+    <div>
+      <input id="Address" type="text" placeholder="city" />
+      <input id="Address" type="text" placeholder="State/province" />
+    </div>
+    <div>
+      <input id="Address" type="text" placeholder="postal/zip code" />
+    </div>
+    <div><label>birth date: </label> <input type="date" /></div>
+  </body>
+</html>

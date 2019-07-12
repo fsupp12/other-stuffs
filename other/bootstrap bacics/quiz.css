@@ -1,0 +1,16 @@
+.border1{
+    border-color:orange;
+    border-width: 5px;
+    border-style:solid;
+}
+body{
+    background-image: url("https://www.twu.org/wp-content/uploads/2016/11/Light-Blue-Gradient-Background-For-Free.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+
+}
+
+
+ul a{
+    color:red
+}
